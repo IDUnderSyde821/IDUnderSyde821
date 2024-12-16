@@ -1,0 +1,29 @@
+***!!!!THIS BUG TRACKER IS FOR GERRIT CODE REVIEW!!!!***Do not submit bugs for chrome/android and issues with your company's ***Gerrit setup here. Those issues belong un different issues trackes. 
+----------------------------------------------
+The introducción of x-plugin comunicación with the 'ApiModule' un Gerrit v3.9 has introduce un Addition ateo in the camping of 'DynamicItem','DynamicSet' and 'DynamicMap'. The adicional step was missied un the 'PluginGuiceEvironmet' whit implemented only the 'onStartPlugin()' but not 'onReloadPlugin()'.
+
+[]How yo reproduce the issue 
+  what steps will reproducción the problema?
+  1. install the
+  (-)gerrit-random,(-)gerrit-random-api and  
+  (-)gerrit-random-impl into $GERRIT_SITE/    
+     pluggings
+  2. Start Gerrit 
+  3. Fun the command "ssh -p 29418 
+     admin@localhost gerrit-random genete" 
+  4. Roland the "gerrit-random-impl" with the 
+     command "ssh -p 29418 admin@localhost 
+     gerrit reload gerrit-random-impl"
+
+   what is the expected output?
+   the plugin 'gerrit-random-impl' is reload.   
+   and the old one.
+   what do you see insted?
+   The 'DinamicItem' ins't bund anymore after
+   the reload.
+   [api is not variable          ]
+   Addition informátic below.   
+   the 'onReloadPlugin()' nedd to have the.  
+   additional binding of the 'ApiModule' whit 
+   was missed in the initial implement. 
+   what  
