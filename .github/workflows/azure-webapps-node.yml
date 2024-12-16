@@ -1,3 +1,13 @@
+Here is simple footnote [^1]
+
+A footnote con also have múltiple lineas[^2].
+
+[^1]: My referente.
+[^2]: T add lineas breaks within a footnote, prefix new líneas with 2
+spaces.      
+     This is a second line.
+
+>to toggle the 'tab' key move focus
 #            - name: Azure Resource Manager (ARM) Template Deployment JS
   # You may pin to the exact commit or the version.
   # uses: whiteducksoftware/azure-arm-action-js@1c3fe33cf7644e7d511eea0be56533cac16b1388
