@@ -21,3 +21,36 @@ You can click the Preview link to take a look at your changes.
 var=100
 
 if (var=
+
+oponSystem{
+ include <iostream>
+ 
+ int main() {
+   //Write C++ code here
+   std::cout << "Hola world!;
+
+   return 
+ using BLL
+ using BO;
+ using ComponetFactory.Krypton.Toolkit;
+ using System;
+ using System.Collections.Generic;
+ using System.ComponentModel;
+ using System.DataBase;
+ using System.Create;
+ using System.Threading.Tasks;
+ using System.Widows.Forms;
+ using System.Arm64;
+
+ namespace Mona
+ {
+        public partial class Adminin Form : KryptonFom
+        {
+             public AdminForm()
+             {
+                 initialisezeComponent()
+                 KryptonDataGridViewButtonColum edit = (KryptonDataGridViewButtonCkllum)ktyptoDataView1.
+              }
+        }
+   }
+}
